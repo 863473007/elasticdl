@@ -3,7 +3,7 @@ syntax = "proto3";
 import "google/protobuf/empty.proto";
 import "elasticdl/proto/tensor_dtype.proto";
 
-package master;
+package proto;
 option go_package = "elasticdl/pkg/proto";
 
 enum TaskType {

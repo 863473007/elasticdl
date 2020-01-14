@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package master;
+package proto;
 option go_package = "elasticdl/pkg/proto";
 
 enum TensorDtype{
